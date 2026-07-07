@@ -131,7 +131,7 @@ A：可能是网络问题，按 `Ctrl+C` 暂停，重新运行会继续。
 
 如果你用这个项目做出了好玩、有用的东西，欢迎分享给我——我会很开心看到它被用在有趣的地方。
 
-📧 邮箱：你的邮箱地址
+📧 邮箱：13201577775@163.com
 
 ---
 
@@ -200,23 +200,52 @@ This project supports three styles by default:
 
 **Your hardware only determines how fast it runs, not whether it can run at all.**
 
+## 📄 License
+
+This project is licensed under the [Apache License 2.0](LICENSE).
+
 ---
 
-## 📦 Quick Start
+## 📮 Contact & Feedback
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/AI_img-gan_gen.git
-cd AI_img-gan_gen
+If you build something cool with this project, I'd love to hear about it.
 
-# 2. Install dependencies
-pip install -r requirements.txt
+📧 Email: 13201577775@163.com
 
-# 3. Crawl image data (30,000 images)
-python crawler.py
+---
 
-# 4. Start training (128×128, takes a few weeks)
-python train.py
+## 💡 Commercial Use
 
-# 5. Generate an image
-python inference.py
+If you want to use this project for **commercial purposes**, feel free to use the code directly — no permission needed.  
+But I would really appreciate it if you could send me a quick email letting me know how it's being used.
+
+📧 Commercial use notification: 13201577775@163.com
+
+---
+
+## 🧠 Pre-trained Model Weights
+
+If you need **ready-to-use trained model weights** (so you don't have to spend weeks training yourself), please contact me via the commercial use email above.
+
+⚠️ **Note:** the model weights are **not free** — they require a separate purchase.
+
+---
+
+## 🙏 A Few Words
+
+I built this project step by step on a GTX 1050 Ti.  
+My goal is simple — to show that:
+
+> **"AI training doesn't require expensive hardware — just patience."**
+
+If you make something cool with it, let me know.  
+If you run into issues, feel free to open an Issue.
+
+---
+
+**If this project helps you, please consider giving it a Star ⭐**
+
+---
+
+**"AI doesn't care about your hardware — it cares about your patience."**
+
