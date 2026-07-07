@@ -1,0 +1,24 @@
+MyAIGenerator/
+│
+├── main.py                         # 统一入口（训练/推理/爬虫）
+├── train.py                        # 训练核心
+├── inference.py                    # 推理生成图片
+├── crawler.py                      # 爬虫（带热度记录）
+├── config.py                       # 配置文件（自动识别根目录）
+├── model.py                        # 模型定义（Generator + Discriminator）
+├── dataset.py                      # 加权数据集 + DataLoader
+├── utils.py                        # 工具函数（断点续传、保存等）
+├── requirements.txt                # 依赖库
+├── README.md                       # 项目说明
+│
+├── data/                           # 数据目录（自动创建）
+│   ├── images/                     # 存放图片（自动创建）
+│   ├── texts/                      # 存放提示词（自动创建）
+│   └── metadata.json               # 元数据（自动生成）
+│
+├── checkpoints/                    # 模型保存（自动创建）
+│   ├── latest_G.pth                # 生成器权重
+│   └── latest_D.pth                # 判别器权重
+│
+└── samples/                        # 生成样本（自动创建）
+    └── epoch_*.png                 # 每轮生成的图片
