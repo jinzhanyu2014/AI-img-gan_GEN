@@ -2,6 +2,9 @@
 一个AI生成图片的仓库,核心是生成对抗网络（GAN)
 # 🎨 AI_img-gan_gen
 
+
+## Chinese
+
 > 用 GTX 1050 从零训练一个 AI 图片生成器
 
 这是一个完整的、从零开始的 AI 图片生成项目。  
@@ -158,3 +161,62 @@ A：可能是网络问题，按 `Ctrl+C` 暂停，重新运行会继续。
 ---
 
 **“AI 不挑设备，只挑耐心。”**
+
+## 训练好的模型权重?联系方式看上面的商用告知邮箱，另外这不是免费的。
+
+
+
+## English
+
+# 🎨 AI_img-gan_gen
+
+> Train your own AI image generator from scratch with a GTX 1050 Ti
+
+This is a complete, from‑scratch AI image generation project.  
+You don’t need a high‑end GPU or expensive cloud servers — your current computer is good enough.
+
+---
+
+## 📌 What It Does
+
+Feed it 30,000 images, and it learns what “that type of image” looks like.  
+After training, it can generate brand new images that have never existed before.
+
+This project supports three styles by default:
+- Cyberpunk
+- Kawaii (Cute)
+- Gufeng (Ancient Chinese Style)
+
+---
+
+## 💻 Minimum Hardware Requirements
+
+| Hardware | Requirement |
+|----------|-------------|
+| GPU | GTX 1050 Ti or higher (4GB VRAM) |
+| RAM | 8GB+ |
+| Storage | 20GB+ free space |
+| OS | Windows / Linux / macOS |
+
+**Your hardware only determines how fast it runs, not whether it can run at all.**
+
+---
+
+## 📦 Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/AI_img-gan_gen.git
+cd AI_img-gan_gen
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Crawl image data (30,000 images)
+python crawler.py
+
+# 4. Start training (128×128, takes a few weeks)
+python train.py
+
+# 5. Generate an image
+python inference.py
